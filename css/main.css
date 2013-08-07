@@ -106,26 +106,27 @@ body {
   overflow: hidden;
   width: 2.8em;
   height: 2.8em;
+  background: #44e84f;
 }
-/* line 115, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 116, C:/xampp/htdocs/surubi/sass/main.scss */
 .btn-rug .rondin {
   width: .5em;
   height: .5em;
   margin: .2em;
-  background: #3e5771;
   display: block;
   float: left;
+  background: white;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
   border-radius: 100px;
 }
-/* line 127, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 128, C:/xampp/htdocs/surubi/sass/main.scss */
 .btn-rug:hover {
-  background: #2c3e50;
+  background: #16b020;
 }
-/* line 129, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 131, C:/xampp/htdocs/surubi/sass/main.scss */
 .btn-rug:hover .rondin {
   background: white;
   -webkit-box-shadow: 0 2px 0px #1a242f;
@@ -133,12 +134,12 @@ body {
   box-shadow: 0 2px 0px #1a242f;
 }
 
-/* line 135, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 137, C:/xampp/htdocs/surubi/sass/main.scss */
 .btn-header {
   padding: .35em;
 }
 
-/* line 138, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 140, C:/xampp/htdocs/surubi/sass/main.scss */
 .btn-header-left {
   float: left;
   border-right: 1px solid #2c3e50;
@@ -147,7 +148,7 @@ body {
   box-shadow: 3px 0 3px rgba(0, 0, 0, 0.2);
 }
 
-/* line 145, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 147, C:/xampp/htdocs/surubi/sass/main.scss */
 .container {
   position: absolute;
   top: 0;
@@ -158,7 +159,7 @@ body {
   overflow-x: hidden;
 }
 
-/* line 156, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 158, C:/xampp/htdocs/surubi/sass/main.scss */
 .main {
   background: #2c3e50 url(../img/bg.jpg) 0 0 repeat;
   top: 0;
@@ -176,7 +177,7 @@ body {
   -o-transform: translate(0, 0) perspective(0) rotateY(0);
   transform: translate(0, 0) perspective(0) rotateY(0);
 }
-/* line 168, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 170, C:/xampp/htdocs/surubi/sass/main.scss */
 .main.translate {
   -webkit-transform: translate(17em, 0.5em) perspective(800px) rotateY(2deg);
   -moz-transform: translate(17em, 0.5em) perspective(800px) rotateY(2deg);
@@ -188,27 +189,27 @@ body {
   box-shadow: -4px 0 9px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* line 175, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 177, C:/xampp/htdocs/surubi/sass/main.scss */
 .content-header {
   background: #233140;
   height: 3.5em;
   border-bottom: 1px solid #3e5771;
 }
 
-/* line 182, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 184, C:/xampp/htdocs/surubi/sass/main.scss */
 .content {
   margin: 3em;
   text-align: center;
 }
-/* line 185, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 187, C:/xampp/htdocs/surubi/sass/main.scss */
 .content h1 {
   margin: 0.5em 0;
   line-height: 1.2em;
 }
 
-/* line 191, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 193, C:/xampp/htdocs/surubi/sass/main.scss */
 .main-menu {
-  background: #11181f url(../img/bgmenu.png) 0 bottom no-repeat;
+  background: #11181f;
   position: absolute;
   text-transform: lowercase;
   top: 0;
@@ -216,7 +217,7 @@ body {
   min-height: 100%;
   width: 17em;
 }
-/* line 201, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 203, C:/xampp/htdocs/surubi/sass/main.scss */
 .main-menu h3 {
   background: #1a242f;
   margin: 0;
@@ -226,17 +227,17 @@ body {
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-/* line 209, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 211, C:/xampp/htdocs/surubi/sass/main.scss */
 .main-menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 213, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 215, C:/xampp/htdocs/surubi/sass/main.scss */
 .main-menu ul li {
   width: 100%;
 }
-/* line 215, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 217, C:/xampp/htdocs/surubi/sass/main.scss */
 .main-menu ul li a {
   color: white;
   display: block;
@@ -245,7 +246,7 @@ body {
   border-top: 1px solid #080b0e;
   border-bottom: 1px solid #1e2a36;
 }
-/* line 222, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 224, C:/xampp/htdocs/surubi/sass/main.scss */
 .main-menu ul li a:hover {
   background: #0d1318;
 }
@@ -256,7 +257,7 @@ body {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/* line 259, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 261, C:/xampp/htdocs/surubi/sass/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -264,7 +265,7 @@ body {
   *text-indent: -9999px;
 }
 
-/* line 266, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 268, C:/xampp/htdocs/surubi/sass/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -272,13 +273,13 @@ body {
   height: 150%;
 }
 
-/* line 273, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 275, C:/xampp/htdocs/surubi/sass/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 278, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 280, C:/xampp/htdocs/surubi/sass/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -290,7 +291,7 @@ body {
   width: 1px;
 }
 
-/* line 290, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 292, C:/xampp/htdocs/surubi/sass/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -301,24 +302,24 @@ body {
   width: auto;
 }
 
-/* line 299, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 301, C:/xampp/htdocs/surubi/sass/main.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 304, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 306, C:/xampp/htdocs/surubi/sass/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
 }
 
-/* line 309, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 311, C:/xampp/htdocs/surubi/sass/main.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 313, C:/xampp/htdocs/surubi/sass/main.scss */
+/* line 315, C:/xampp/htdocs/surubi/sass/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -327,7 +328,7 @@ body {
    Print styles
    ========================================================================== */
 @media print {
-  /* line 322, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 324, C:/xampp/htdocs/surubi/sass/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -336,18 +337,18 @@ body {
     text-shadow: none !important;
   }
 
-  /* line 330, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 332, C:/xampp/htdocs/surubi/sass/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 334, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 336, C:/xampp/htdocs/surubi/sass/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 338, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 340, C:/xampp/htdocs/surubi/sass/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -355,33 +356,33 @@ body {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 348, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 350, C:/xampp/htdocs/surubi/sass/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 353, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 355, C:/xampp/htdocs/surubi/sass/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 358, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 360, C:/xampp/htdocs/surubi/sass/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 363, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 365, C:/xampp/htdocs/surubi/sass/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 367, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 369, C:/xampp/htdocs/surubi/sass/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -390,7 +391,7 @@ body {
     margin: 0.5cm;
 }
 
-  /* line 377, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 379, C:/xampp/htdocs/surubi/sass/main.scss */
   p,
   h2,
   h3 {
@@ -398,7 +399,7 @@ body {
     widows: 3;
   }
 
-  /* line 383, C:/xampp/htdocs/surubi/sass/main.scss */
+  /* line 385, C:/xampp/htdocs/surubi/sass/main.scss */
   h2,
   h3 {
     page-break-after: avoid;

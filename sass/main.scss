@@ -111,21 +111,23 @@ body {
 	overflow: hidden;
 	width: 2.8em;
 	height: 2.8em;
+	background: $secondary-color;
 
 	.rondin {
 		width: .5em;
 		height: .5em;
 		margin: .2em;
-		background: lighten($primary-color, 10%);
 		display: block;
 		float: left;
 
+		background: white;
 
 		@include border-radius(100px);
 	}
 
 	&:hover {
-		background: $primary-color;
+		//background: $primary-color;
+		background: darken($secondary-color, 20%);
 		.rondin {
 			background: white;
 			@include box-shadow(0 2px 0px darken($primary-color, 10%));
@@ -189,7 +191,7 @@ body {
 }
 
 .main-menu {
-	background: darken($primary-color, 15%) url(../img/bgmenu.png) 0 bottom no-repeat;
+	background: darken($primary-color, 15%);
 
 	position: absolute;
 	text-transform: lowercase;
